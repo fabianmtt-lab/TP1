@@ -7,10 +7,10 @@ header {
     height: 100%;
 }
 body{
-    background: blanchedalmond;
+    background-color: grey;
     height: 100%;
-    margin: 0;
     padding: 0;
+
 
 }
 nav {
@@ -21,10 +21,19 @@ section{
     background: grey;
 }
 nav ul {
-    list-style: none;
-    margin: 0;
+
     padding: 0;
+        
+}
+table, td, th{
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 1rem;
+    border-collapse: collapse;
+    width: 30%;
 }
 footer{
     background-color: black;
+    padding: 30px;
+
 }
